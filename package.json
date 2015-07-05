@@ -1,0 +1,39 @@
+{
+  "name": "dynel-ui-react",
+  "version": "0.0.53",
+  "description": "Dynamic Elements UI React.js framework",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --recursive -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VDSFoundry/dynel-ui-react.git"
+  },
+  "keywords": [
+    "dynel",
+    "dynel-ui-react",
+    "dynamic-elements"
+  ],
+  "author": "Visual Data Solutions, Inc.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VDSFoundry/dynel-ui-react/issues"
+  },
+  "homepage": "https://github.com/VDSFoundry/dynel-ui-react",
+  "dependencies": {
+    "dynel-core": "*",
+    "react": "*"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
+    "mocha": "^1.21.4",
+    "sinon": "^1.10.3"
+  }
+}
